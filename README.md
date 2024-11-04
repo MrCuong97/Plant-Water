@@ -11,5 +11,6 @@ Hệ thống này sử dụng MQTT để truyền tải dữ liệu giữa ESP32
 * MQTT Broker: Có thể sử dụng Mosquitto MQTT broker hoặc broker đám mây như HiveMQ, Adafruit IO, hoặc một dịch vụ MQTT miễn phí.
 # Các thành phần phần mềm
 * Firmware ESP32: Được lập trình bằng Arduino IDE hoặc PlatformIO.
-* MQTT Broker: (Mosquitto MQTT broker) Làm nhiệm vụ nhận và phân phối các thông báo từ ESP32 đến ứng dụng và ngược lại.
+* MQTT Broker:  Làm nhiệm vụ nhận và phân phối các thông báo từ ESP32 đến ứng dụng và ngược lại.
+  Xay dung may chu cho mang cuc bo voi (Mosquitto MQTT broker) hoac su dung cac may chu truc tuyen nhu HiveMQ
 * Ứng dụng di động (tùy chọn): Được xây dựng bằng Flutter hoặc một nền tảng tương tự, cho phép giám sát và điều khiển hệ thống từ xa.
