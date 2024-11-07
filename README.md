@@ -5,6 +5,13 @@ Hệ thống này sử dụng MQTT để truyền tải dữ liệu giữa ESP32
 
 # Yêu cầu phần cứng
 * ESP32: Là bộ vi điều khiển chính, có khả năng kết nối Wi-Fi để truyền dữ liệu.
+** ESP32-DevKitC-32E 
+  https://www.espressif.com/en/products/devkits/esp32-devkitc/
+
+**ESP32 Expansion Board**
+
+  https://grabcad.com/library/esp32-expansion-board-esp32-shield-development-board-1
+
 * Cảm biến độ ẩm đất điện dung: Gravity: Analog Capacitive Soil Moisture Sensor - Corrosion Resistant: PPDF-SEN0193
 * Rơ-le hoặc Module bơm: Để điều khiển máy bơm nước.
 * Bơm nước: Để tưới nước khi cần thiết.
