@@ -6,7 +6,7 @@ Hệ thống này sử dụng MQTT để truyền tải dữ liệu giữa ESP32
 # Yêu cầu phần cứng
 * ESP32: Là bộ vi điều khiển chính, có khả năng kết nối Wi-Fi để truyền dữ liệu.
 ** ESP32-DevKitC-32E 
-  https://www.espressif.com/en/products/devkits/esp32-devkitc/
+  https://www.espressif.com/en/products/devkits/esp32-devkitc/     .
 ** ESP32 Expansion Board**
   https://grabcad.com/library/esp32-expansion-board-esp32-shield-development-board-1
 
