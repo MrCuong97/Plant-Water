@@ -19,8 +19,8 @@ Hệ thống này sử dụng MQTT để truyền tải dữ liệu giữa ESP32
 * Ứng dụng di động (tùy chọn): Được xây dựng bằng Flutter hoặc một nền tảng tương tự, cho phép giám sát và điều khiển hệ thống từ xa.
 # Kiến trúc tổng quan
 * ESP32:  
-  Ở chế độ AP: Chờ nhận thông tin WiFi từ ứng dụng Flutter.
-  Ở chế độ STA: Kết nối với mạng WiFi và giao tiếp với MQTT broker.
+  Ở chế độ AP: Chờ nhận thông tin WiFi từ ứng dụng Flutter.  
+  Ở chế độ STA: Kết nối với mạng WiFi và giao tiếp với MQTT broker.  
 * Flutter:  
-  Giai đoạn 1: Gửi thông tin WiFi qua HTTP POST tới ESP32 trong chế độ AP.
+  Giai đoạn 1: Gửi thông tin WiFi qua HTTP POST tới ESP32 trong chế độ AP.  
   Giai đoạn 2: Kết nối với MQTT broker và lắng nghe/truyền dữ liệu với ESP32 qua broker.
